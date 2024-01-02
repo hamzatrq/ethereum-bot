@@ -1,0 +1,321 @@
+repo_name: hamzatrq/ethereum-bot
+report_id: e353056af8461d4340e98e5b667dcedc
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-02T18:01:06+00:00'
+requested_by: rob-webaverse
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+- name: Ethereum
+  description: Open source platform to write and distribute decentralized applications
+  website_url: https://ethereum.org
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Blockchain
+  image_url: https://img.stackshare.io/service/1634/default_dacdb57c0b4f9d422e4a23aed8b9bbf7a6024fed.jpg
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2021-01-19 15:29:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: forever
+  description: A simple CLI tool
+  website_url: https://github.com/nodejitsu/forever
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Node.js Process Manager
+  image_url: https://img.stackshare.io/service/1740/10152066.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: chrislatorres
+  last_updated_on: 2021-01-22 17:41:02.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+- name: Discord.js
+  description: Discord.js is a powerful node.js module that allows you to interact
+    with the Discord API very easily.
+  website_url: https://discord.js.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8403/logo-square.png
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+- name: Twitter API
+  description: Build bots that communicate smartly.
+  website_url: https://twitter.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2466/twitterdev_gear.png
+  detection_source: package.json
+  last_updated_by: shawticus
+  last_updated_on: 2021-01-21 18:26:01.000000000 Z
+- name: web3
+  website_url: https://github.com/ethereum/web3.js/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8418/no-img-open-source.png
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:40:08.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.760.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution via file load in aws-sdk and @aws-sdk/shared-ini-file-loader
+    cve_id: CVE-2020-28472
+    cve_url: https://github.com/advisories/GHSA-rrc9-gqf8-8rwg
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.814.0
+- name: bip39
+  description: 'Bitcoin BIP39: Mnemonic code for generating deterministic keys'
+  package_url: https://www.npmjs.com/bip39
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17210/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+- name: ethereumjs-wallet
+  description: Utilities for handling Ethereum keys
+  package_url: https://www.npmjs.com/ethereumjs-wallet
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18246/default_42444f560291e764861faaf607f48484f4d14cba.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2021-01-19 15:29:03.000000000 Z
+- name: follow-redirects
+  description: HTTP and HTTPS modules that follow redirects
+  package_url: https://www.npmjs.com/follow-redirects
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17687/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+  vulnerabilities:
+  - name: Exposure of sensitive information in follow-redirects
+    cve_id: CVE-2022-0155
+    cve_url: https://github.com/advisories/GHSA-74fj-2j2h-c42q
+    detected_date: Jan 18
+    severity: high
+    first_patched: 1.14.7
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects
+    cve_id: CVE-2022-0536
+    cve_url: https://github.com/advisories/GHSA-pw2r-vq6v-hr8c
+    detected_date: Feb 12
+    severity: moderate
+    first_patched: 1.14.8
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-10-24 10:03:34.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 2.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2020-11-20 01:49:09.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: shawticus
+  last_updated_on: 2021-01-26 03:39:22.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+- name: node-static
+  description: Simple, compliant file streaming module for node
+  package_url: https://www.npmjs.com/node-static
+  version: 0.7.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16814/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: shawticus
+  last_updated_on: 2021-01-26 03:39:22.000000000 Z
+  vulnerabilities:
+  - name: node-static and @nubosoftware/node-static vulnerable to Directory Traversal
+    cve_id: CVE-2023-26111
+    cve_url: https://github.com/advisories/GHSA-5g97-whc9-8g7j
+    detected_date: Mar 8
+    severity: high
+    first_patched: 
+  - name: Denial of Service in node-static
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8r4g-cg4m-x23c
+    detected_date: Sep 23
+    severity: moderate
+    first_patched: 
+- name: pretty-bytes
+  description: 'Convert bytes to a human readable string: 1337 → 1.34 kB'
+  package_url: https://www.npmjs.com/pretty-bytes
+  version: 5.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16763/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avaer Kazmer
+  last_updated_on: 2021-03-30 08:05:17.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: shawticus
+  last_updated_on: 2021-01-31 04:22:13.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise
+  version: 4.2.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: shawticus
+  last_updated_on: 2021-01-31 04:22:13.000000000 Z
+- name: twit
+  description: Twitter API client for node
+  package_url: https://www.npmjs.com/twit
+  version: 2.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18372/default_6da9f8de2035c7ad69ecf412df9fe80b73f9797a.png
+  detection_source_url: https://github.com/hamzatrq/ethereum-bot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: shawticus
+  last_updated_on: 2021-01-21 18:26:01.000000000 Z
