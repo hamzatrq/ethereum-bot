@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hamzatrq/ethereum-bot](https://github.com/hamzatrq/ethereum-bot)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|21<br/>Tools used|01/02/24 <br/>Report generated|
+|23<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -132,14 +132,15 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (12)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (14)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (12)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (14)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[aws-sdk](https://www.npmjs.com/aws-sdk)|v2.760.0|10/24/20|Avaer Kazmer |Apache-2.0|[CVE-2020-28472](https://github.com/advisories/GHSA-rrc9-gqf8-8rwg) (High)|
 |[bip39](https://www.npmjs.com/bip39)|v3.0.2|10/24/20|Avaer Kazmer |ISC|N/A|
+|[discord.js](https://www.npmjs.com/discord.js)|v12.3.1|10/24/20|Avaer Kazmer |Apache-2.0|N/A|
 |[ethereumjs-wallet](https://www.npmjs.com/ethereumjs-wallet)|v1.0.1|01/19/21|Avaer Kazmer |MIT|N/A|
 |[follow-redirects](https://www.npmjs.com/follow-redirects)|v1.13.0|10/24/20|Avaer Kazmer |MIT|[CVE-2022-0155](https://github.com/advisories/GHSA-74fj-2j2h-c42q) (High)<br/>[CVE-2022-0536](https://github.com/advisories/GHSA-pw2r-vq6v-hr8c) (Moderate)|
 |[fs](https://www.npmjs.com/fs)|v0.0.1|10/24/20|Avaer Kazmer |MIT|N/A|
@@ -150,6 +151,7 @@ Full tech stack [here](/techstack.md)
 |[request](https://www.npmjs.com/request)|v2.88.2|01/31/21|shawticus |Apache-2.0|[CVE-2023-28155](https://github.com/advisories/GHSA-p8p7-x288-28g6) (Moderate)|
 |[request-promise](https://www.npmjs.com/request-promise)|v4.2.6|01/31/21|shawticus |ISC|N/A|
 |[twit](https://www.npmjs.com/twit)|v2.2.11|01/21/21|shawticus |MIT|N/A|
+|[web3](https://www.npmjs.com/web3)|v1.3.0|10/24/20|Avaer Kazmer |LGPL-3.0|[](https://github.com/advisories/GHSA-27v7-qhfv-rqq8) (Low)|
 
 <br/>
 <div align='center'>
