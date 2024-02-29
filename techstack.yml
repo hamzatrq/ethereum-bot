@@ -2,7 +2,7 @@ repo_name: hamzatrq/ethereum-bot
 report_id: e353056af8461d4340e98e5b667dcedc
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:11:27+00:00'
+timestamp: '2024-02-29T19:23:30+00:00'
 requested_by: rob-webaverse
 provider: github
 branch: master
@@ -195,6 +195,12 @@ tools:
     detected_date: Jan 18
     severity: high
     first_patched: 1.14.7
+  - name: Follow Redirects improperly handles URLs in the url.parse() function
+    cve_id: CVE-2023-26159
+    cve_url: https://github.com/advisories/GHSA-jchw-25xp-jwwc
+    detected_date: Jan 9
+    severity: moderate
+    first_patched: 1.15.4
   - name: Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects
     cve_id: CVE-2022-0536
     cve_url: https://github.com/advisories/GHSA-pw2r-vq6v-hr8c
