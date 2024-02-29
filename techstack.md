@@ -3,8 +3,8 @@
 ## Tech Stack
 hamzatrq/ethereum-bot is built on the following main stack:
 
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [Ethereum](https://ethereum.org) – Blockchain
 - [forever](https://github.com/nodejitsu/forever) – Node.js Process Manager
 
@@ -16,8 +16,8 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 hamzatrq/ethereum-bot is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1634/default_dacdb57c0b4f9d422e4a23aed8b9bbf7a6024fed.jpg' alt='Ethereum'/> [Ethereum](https://ethereum.org) – Blockchain
 - <img width='25' height='25' src='https://img.stackshare.io/service/1740/10152066.png' alt='forever'/> [forever](https://github.com/nodejitsu/forever) – Node.js Process Manager
 
@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hamzatrq/ethereum-bot](https://github.com/hamzatrq/ethereum-bot)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|23<br/>Tools used|01/05/24 <br/>Report generated|
+|23<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -142,7 +142,7 @@ Full tech stack [here](/techstack.md)
 |[bip39](https://www.npmjs.com/bip39)|v3.0.2|10/24/20|Avaer Kazmer |ISC|N/A|
 |[discord.js](https://www.npmjs.com/discord.js)|v12.3.1|10/24/20|Avaer Kazmer |Apache-2.0|N/A|
 |[ethereumjs-wallet](https://www.npmjs.com/ethereumjs-wallet)|v1.0.1|01/19/21|Avaer Kazmer |MIT|N/A|
-|[follow-redirects](https://www.npmjs.com/follow-redirects)|v1.13.0|10/24/20|Avaer Kazmer |MIT|[CVE-2022-0155](https://github.com/advisories/GHSA-74fj-2j2h-c42q) (High)<br/>[CVE-2022-0536](https://github.com/advisories/GHSA-pw2r-vq6v-hr8c) (Moderate)|
+|[follow-redirects](https://www.npmjs.com/follow-redirects)|v1.13.0|10/24/20|Avaer Kazmer |MIT|[CVE-2022-0155](https://github.com/advisories/GHSA-74fj-2j2h-c42q) (High)<br/>[CVE-2023-26159](https://github.com/advisories/GHSA-jchw-25xp-jwwc) (Moderate)<br/>[CVE-2022-0536](https://github.com/advisories/GHSA-pw2r-vq6v-hr8c) (Moderate)|
 |[fs](https://www.npmjs.com/fs)|v0.0.1|10/24/20|Avaer Kazmer |MIT|N/A|
 |[mime](https://www.npmjs.com/mime)|v2.4.6|11/20/20|Avaer Kazmer |MIT|N/A|
 |[node-fetch](https://www.npmjs.com/node-fetch)|v2.6.1|01/26/21|shawticus |MIT|[CVE-2022-0235](https://github.com/advisories/GHSA-r683-j2x4-v87g) (High)|
